@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+
+  >div {
+    &:not(.header, .footer) {
+      flex-grow: 1;
+    }
+
+    &.requirements {
+      width: 50%;
+      margin: 20px auto;
+
+      li {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}

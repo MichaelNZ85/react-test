@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-gap: 20px;
+
+  width: 500px;
+  height: 750px;
+
+  margin: 50px auto auto;
+  padding: 50px;
+
+  text-align: center;
+  border: 3px solid #2f4154;
+  border-radius: 3px;
+  background: #009fcc;
+
+  box-sizing: border-box;
+
+  .dog-image {
+    width: auto;
+    height: 150px;
+  }
+
+  .header-buttons {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+
+  .color-buttons {
+    display: flex;
+    grid-gap: 10px;
+  }
+
+  hr {
+    width: 100%;
+    border-color: #2f4154;
+  }
+}

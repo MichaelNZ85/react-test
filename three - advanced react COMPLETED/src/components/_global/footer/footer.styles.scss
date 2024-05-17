@@ -1,0 +1,21 @@
+.footer {
+  background-color: #5a6469;
+  padding: 20px;
+
+  button {
+    float: right;
+    height: 28px;
+    padding: 0 15px;
+    border-radius: 2px;
+    background: #009fcc;
+    color: #fff;
+    border: none;
+    transition: background 0.3s ease;
+
+    &:hover {
+      cursor: pointer;
+      background: #fff;
+      color: #009fcc;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.container {
+  width: auto;
+  margin: 50px;
+  padding: 50px;
+  border: 1px solid;
+  border-radius:3px;
+  background: #eee;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+}
